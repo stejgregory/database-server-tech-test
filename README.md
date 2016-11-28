@@ -23,6 +23,6 @@ Create a new git repository and write code to fulfill the brief to the best of y
 4. Make RSPEC turn Green!
 5. Write test for returning the related value when a key is given
 6. Make RSPEC turn Green again!
-7. Set the server to run at port 4000
+7. ~~Set the server to run at port 4000~~
 8. Write a test for storing key value pairs to a file
 9. Make RSPEC great again!
