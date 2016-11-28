@@ -1,4 +1,3 @@
-# database-server-tech-test
 A simple program to store a key value pair in memory, and return the value when the key is given.
 
 # Database server tech test
@@ -16,3 +15,14 @@ You receive a message from a prospective employer:
 If you finish, you can work on saving the data to a file."
 
 Create a new git repository and write code to fulfill the brief to the best of your ability. Store the data in memory, not in a database, but bear in mind that you will later need to add a database to this code.
+
+## To Do
+1. ~~Create & Clone git repository~~
+2. ~~Setup a Sinatra app stack~~
+3. Write test for storing a key value pair given by the user
+4. Make RSPEC turn Green!
+5. Write test for returning the related value when a key is given
+6. Make RSPEC turn Green again!
+7. Set the server to run at port 4000
+8. Write a test for storing key value pairs to a file
+9. Make RSPEC great again!
