@@ -16,6 +16,14 @@ If you finish, you can work on saving the data to a file."
 
 Create a new git repository and write code to fulfill the brief to the best of your ability. Store the data in memory, not in a database, but bear in mind that you will later need to add a database to this code.
 
+## Instructions to use the app
+1. Change into a new directory in your terminal
+2. Run "git clone https://github.com/stejgregory/database-server-tech-test.git"
+3. Run "cd database-server-tech-test"
+4. Run "bundle"
+5. Test by running "rspec"
+6. To use the app, run "rerun app.rb"
+
 ## To Do
 1. ~~Create & Clone git repository~~
 2. ~~Setup a Sinatra app stack~~
