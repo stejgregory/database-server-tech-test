@@ -5,22 +5,16 @@ class DatabaseServer < Sinatra::Base
   set :port, 4000
   enable :sessions
 
-  KEY_AND_VALUE_HASH = {}
+  @key_and_vale_hash = {}
 
   get '/' do
     "Welcome to Database Server"
   end
 
   get '/set' do
-    key = params.flatten[-2]
-    value = params.flatten[-1]
-    session[key] = value
-    "hash is set #{key}: #{value}"
-    # splitQuery = request.query_string.split('=')
-    # @key = splitQuery[0]
-    # @value = splitQuery[1]
-    # KEY_AND_VALUE_HASH[:key] = @value
-    # erb :set
+    key_and_value_hash[:key] = (params[:key])
+    key_and_value_hash[:value] = (params[:value])
+    puts @key_and_value_hash
   end
 
   # start the server if ruby file executed directly

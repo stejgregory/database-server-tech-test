@@ -27,7 +27,7 @@ Create a new git repository and write code to fulfill the brief to the best of y
 ## To Do
 1. ~~Create & Clone git repository~~
 2. ~~Setup a Sinatra app stack~~
-3. Write test for storing a key value pair given by the user
+3. ~~Write test for storing a key value pair given by the user~~
 4. Make RSPEC turn Green!
 5. Write test for returning the related value when a key is given
 6. Make RSPEC turn Green again!

@@ -9,7 +9,7 @@ feature 'Testing the whole program' do
 
   it 'can save the key and the value from the request' do
     visit 'http://localhost:4000/set?somekey=somevalue'
-    expect(page).to have_content "hash is set #{somekey}: #{somevalue}"
+    expect(page).to have_content "somekey: somevalue"
   end
 
 end
